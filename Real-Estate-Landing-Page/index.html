@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="vitthal-korvan" />
+    <link rel="icon" type="image/x-icon" href="./Assets/Icons/logoName.svg" />
+    <title>Real Estate Landing Page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Tailwind CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- Remix-Icons CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="overflow-x-hidden w-[100vw]">
+    <header
+      class=" bg-[url(/assets/Photos/mainBackground.png)] w-full lg:w-[100vw] h-[100vh] p-4 "
+    >
+      <nav class="max-width flex justify-between lg:px-35">
+        <img
+          src="./Assets/Icons/Logo.svg"
+          alt="logo"
+          class="logo w-35 lg:flex"
+        />
+        <ul
+          class="hidden lg:block lg:flex text-white lg:pl-[40rem] lg:gap-5 lg:items-center"
+        >
+          <li>Location</li>
+          <li>Blogs</li>
+          <li>Testimonials</li>
+          <li>Contact</li>
+        </ul>
+        <div class="ham-menu">
+          <i class="ri-menu-line text-4xl text-[#6663E9] lg:hidden"></i>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      <hr class="mt-4 h-[2px] text-white bg-white" />
+
+      <section class="hero">
+        <div
+          class="container max-width flex flex-col justify-center lg:pt-40 h-[60vh] gap-5 lg:px-35"
+        >
+          <h1
+            class="text-4xl lg:text-6xl font-bold text-white leading-12 lg:leading-20"
+          >
+            Home That Makes<br />You Living Life!
+          </h1>
+          <p class="text-white">
+            Are you looking for amazing Real estate? Don't <br />
+            worry! We got it for you!
+          </p>
+          <button
+            class="btn-primary w-30 bg-[#6663E9] text-white py-2 rounded-4xl lg:mt-4"
+          >
+            Learn More
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="logos">
+        <div
+          class="container max-width flex lg:flex shadow-lg grid grid-cols-3 lg:grid-cols-1 px-4 lg:px-8 py-10 place-content-between lg:place-content-evenly lg:gap-4 gap-11"
+        >
+          <img src="./Assets/Icons/logoName.svg" alt="logoName" />
+          <img src="./Assets/Icons/logoName.svg" alt="logoName" />
+          <img src="./Assets/Icons/logoName.svg" alt="logoName" />
+          <img
+            class="ml-20 lg:ml-0"
+            src="./Assets/Icons/logoName.svg"
+            alt="logoName"
+          />
+          <img
+            class="ml-20 lg:ml-0"
+            src="./Assets/Icons/logoName.svg"
+            alt="logoName"
+          />
+        </div>
+      </section>
+
+      <section class="locations">
+        <div class="heading pt-20 pb-10">
+          <h2 class="text-center text-4xl font-bold">
+            Our Best Estate,<br />are Modern!
+          </h2>
+        </div>
+
+        <div
+          class="container max-width lg:flex lg:grid lg:grid-cols-3 lg:px-35"
+        >
+          <!-- first villa -->
+          <img
+            class="px-4 rounded-4xl h-75 lg:w-100"
+            src="/assets/Photos/cardImage1.png"
+            alt="cardImage1"
+          />
+          <div class="items items-1 relative">
+            <div
+              class="details flex justify-between ml-9 shadow-xl w-[85%] lg:w-[80%] bg-white rounded-xl mx-4 lg:mx-0 absolute -top-10 lg:-left-95 lg:top-63 py-2"
+            >
+              <div class="text ml-4">
+                <h4 class="text-lg">Mixtownia</h4>
+                <h3 class="text-2xl font-bold text-[#6663E9]">$205,500</h3>
+              </div>
+              <button
+                class="btn-primary h-10 w-25 mt-4 mr-4 bg-[#6663E9] text-white rounded-4xl"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+
+          <!-- second vill -->
+          <img
+            class="px-4 rounded-4xl h-75 mt-15 lg:w-100 lg:absolute lg:left-135 lg:mt-6"
+            src="/assets/Photos/cardImage2.png"
+            alt="cardImage2"
+          />
+          <div class="items items-2 relative">
+            <div
+              class="details flex justify-between ml-9 shadow-xl w-[85%] lg:w-[80%] bg-white rounded-xl mx-4 lg:mx-0 absolute -top-10 lg:-left-98 lg:top-70 py-2"
+            >
+              <div class="text ml-4">
+                <h4 class="text-lg">Mirtawan</h4>
+                <h3 class="text-2xl font-bold text-[#6663E9]">$105,500</h3>
+              </div>
+              <button
+                class="btn-primary h-10 w-25 mt-4 mr-4 bg-[#6663E9] text-white rounded-4xl"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+
+          <!-- third villa -->
+          <img
+            class="px-4 rounded-4xl h-75 mt-15 lg:w-100 lg:absolute lg:left-235 lg:mt-12"
+            src="./assets/Photos/cardImage3.png"
+            alt="cardImage3"
+          />
+          <div class="items items-3 relative">
+            <div
+              class="details flex justify-between ml-9 shadow-xl w-[85%] lg:w-[80%] bg-white rounded-xl mx-4 absolute -top-10 lg:-top-0 lg:left-200 py-2"
+            >
+              <div class="text ml-4">
+                <h4 class="text-lg">Wartawan</h4>
+                <h3 class="text-2xl font-bold text-[#6663E9]">$135,500</h3>
+              </div>
+              <button
+                class="btn-primary h-10 w-25 mt-4 mr-4 bg-[#6663E9] text-white rounded-4xl"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+
+          <!-- forth villa -->
+          <img
+            class="px-4 rounded-4xl h-75 mt-15 lg:w-100 lg:absolute lg:mt-[30rem]"
+            src="/assets/Photos/cardImage4.png"
+            alt="cardImage4"
+          />
+          <div class="items items-4 relative">
+            <div
+              class="details flex justify-between ml-9 shadow-xl w-[85%] lg:w-[80%] bg-white rounded-xl mx-4 lg:mx-0 absolute -top-10 lg:top-108 lg:-left-95 py-2"
+            >
+              <div class="text ml-4">
+                <h4 class="text-lg">Mixtownia</h4>
+                <h3 class="text-2xl font-bold text-[#6663E9]">$105,500</h3>
+              </div>
+              <button
+                class="btn-primary h-10 w-25 mt-4 mr-4 bg-[#6663E9] text-white rounded-4xl"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+
+          <!-- fifth villa -->
+          <img
+            class="px-4 rounded-4xl h-75 mt-15 lg:w-100 lg:absolute lg:left-135 lg:mt-[28rem]"
+            src="/assets/Photos/cardImage5.png"
+            alt="cardImage5"
+          />
+          <div class="items items-5 relative">
+            <div
+              class="details flex justify-between ml-9 shadow-xl w-[85%] lg:w-[80%] bg-white rounded-xl mx-4 lg:mx-0 absolute -top-10 lg:top-100 lg:-left-98 py-2"
+            >
+              <div class="text ml-4">
+                <h4 class="text-lg">Mixtownia</h4>
+                <h3 class="text-2xl font-bold text-[#6663E9]">$105,500</h3>
+              </div>
+              <button
+                class="btn-primary h-10 w-25 mt-4 mr-4 bg-[#6663E9] text-white rounded-4xl"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+
+          <!-- sixth villa -->
+          <img
+            class="px-4 rounded-4xl h-75 mt-15 lg:w-100 lg:absolute lg:left-235 lg:mt-[26rem]"
+            src="/assets/Photos/cardImage6.png"
+            alt="cardImage6"
+          />
+          <div class="items items-6 relative">
+            <div
+              class="details flex justify-between ml-9 shadow-xl w-[85%] lg:w-[80%] bg-white rounded-xl mx-4 absolute -top-10 lg:top-92 lg:left-200 py-2"
+            >
+              <div class="text ml-4">
+                <h4 class="text-lg">Mixtownia</h4>
+                <h3 class="text-2xl font-bold text-[#6663E9]">$105,500</h3>
+              </div>
+              <button
+                class="btn-primary h-10 w-25 mt-4 mr-4 bg-[#6663E9] text-white rounded-4xl"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+
+          <!-- seventh villa -->
+          <img
+            class="px-4 rounded-4xl h-75 mt-15 lg:w-100 lg:absolute lg:mt-[54rem]"
+            src="/assets/Photos/cardImage7.png"
+            alt="cardImage7"
+          />
+          <div class="items items-7 relative">
+            <div
+              class="details flex justify-between ml-9 shadow-xl w-[85%] lg:w-[80%] bg-white rounded-xl mx-4 lg:mx-0 absolute -top-10 lg:top-204 lg:-left-95 py-2"
+            >
+              <div class="text ml-4">
+                <h4 class="text-lg">Mixtownia</h4>
+                <h3 class="text-2xl font-bold text-[#6663E9]">$105,500</h3>
+              </div>
+              <button
+                class="btn-primary h-10 w-25 mt-4 mr-4 bg-[#6663E9] text-white rounded-4xl"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+
+          <!-- eighth villa -->
+          <img
+            class="px-4 rounded-4xl h-75 w-full mt-15 lg:w-100 lg:absolute lg:mt-[56rem] lg:left-135"
+            src="/assets/Photos/cardImage8.png"
+            alt="cardImage8"
+          />
+          <div class="items items-8 relative">
+            <div
+              class="details flex justify-between ml-9 shadow-xl w-[85%] lg:w-[80%] bg-white rounded-xl mx-4 lg:mx-0 absolute -top-10 lg:top-210 lg:-left-98 py-2"
+            >
+              <div class="text ml-4">
+                <h4 class="text-lg">Mixtownia</h4>
+                <h3 class="text-2xl font-bold text-[#6663E9]">$105,500</h3>
+              </div>
+              <button
+                class="btn-primary h-10 w-25 mt-4 mr-4 bg-[#6663E9] text-white rounded-4xl"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+
+          <!-- nineth villa -->
+          <img
+            class="px-4 rounded-4xl h-75 w-full mt-15 lg:w-100 lg:absolute lg:mt-[58rem] lg:left-235"
+            src="/assets/Photos/cardImage9.png"
+            alt="cardImage9"
+          />
+          <div class="items items-9 relative">
+            <div
+              class="details flex justify-between ml-9 shadow-xl w-[85%] lg:w-[80%] bg-white rounded-xl mx-4 absolute -top-10 lg:top-218 lg:left-200 py-2"
+            >
+              <div class="text ml-4">
+                <h4 class="text-lg">Mixtownia</h4>
+                <h3 class="text-2xl font-bold text-[#6663E9]">$105,500</h3>
+              </div>
+              <button
+                class="btn-primary h-10 w-25 mt-4 mr-4 bg-[#6663E9] text-white rounded-4xl"
+              >
+                Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- big villa first -->
+     <section class="blogs ">
+
+       <div class="lg:flex">
+          <div class="image">
+           <img
+            class="hidden lg:block lg:mt-[65rem]"
+            src="./Assets/Icons/featureImageBg1.svg"
+            alt="featureImageBg1"
+           />
+           <img
+            src="./Assets/Photos/featuresImage1.png"
+            alt="featureImageBg1"
+            class="f-img mt-30 rounded-4xl px-4 lg:w-100 lg:h-90 lg:relative lg:bottom-150 lg:left-30"
+           />
+         </div>
+         <div class="text pt-10 px-4 lg:relative lg:top-265 lg:left-40 ">
+          <h2 class="text-3xl lg:text-5xl lg:leading-16 font-bold">Modern, Trendy,<br />Affordable!</h2>
+          <p class="text-[15px] w-[85%] lg:w-[40%] pt-5 opacity-[0.5] font-medium">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+            dolores cum esse officiis odio placeat quidem omnis repudiandae
+            similique deleniti.
+          </p>
+          <button
+            class="btn-primary bg-[#6663E9] w-full lg:w-fit lg:px-6 py-2 mt-4 text-white rounded-4xl"
+          >
+            Early Bird Book
+          </button>
+         </div>
+        </div>
+      </section>
+
+      <!-- big villa second -->
+      <section class="blogs blogs-2">
+        <div class="lg:flex lg:flex-row-reverse lg:-mt-120 ">
+          <div class="image">
+          <img
+            class="hidden lg:block "
+            src="./Assets/Icons/featureImageBg2.png"
+            alt="featureImageBg1"
+          />
+          <img
+            src="./Assets/Photos/featuresImage2.png"
+            alt="featureImageBg2"
+            class="f-img mt-20 rounded-4xl px-4 lg:w-100 lg:h-90 lg:relative lg:bottom-140 lg:left-22"
+          />
+        </div>
+        <div class="text pt-10 px-4 lg:pt-20 lg:pl-20">
+          <h2 class="text-3xl lg:text-5xl lg:leading-16 font-bold">Unique House<br />for Long Term!</h2>
+          <p class="text-[15px] w-[85%] lg:w-[40%] pt-5 opacity-[0.5] font-medium">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+            dolores cum esse officiis odio placeat quidem omnis repudiandae
+            similique deleniti.
+          </p>
+          <button
+            class="btn-primary bg-[#6663E9] w-full py-2 lg:w-fit lg:px-6 mt-4 text-white rounded-4xl"
+          >
+            Early Bird Book
+          </button>
+        </div>
+        </div>
+      </section>
+
+      <section class="subscribe-news px-4 lg:flex lg:justify-center">
+        <div class="container max-width rounded-2xl lg:flex lg:flex-col lg:w-[70%] lg:items-center mt-20 bg-[#6663E9] h-100 lg:-mt-100 ">
+          <div class="heading pt-10">
+            <h2 class="text-3xl lg:text-5xl lg:leading-15 text-center text-white leading-10 font-bold">
+              Subscribe to Our Newsletter<br />For Weekly Article Update.
+            </h2>
+            <p class="text-sm text-white pt-5 text-center leading-6 px-10">
+              We have real estate-related blog so we can share our <br> thought and
+              rutinity in our blog that updated Weekly. We <br> will not spam you, we
+              promise
+            </p>
+          </div>
+
+          <div class="form px-4 pt-8 lg:flex lg:gap-6">
+            <div
+              class="email flex flex-row-reverse lg:items-center bg-[#5654D1] text-white py-2 rounded-md px-4  pr-40 "
+            >
+              <input
+                class="pl-2"
+                type="text"
+                placeholder="Enter your e-mail address"
+              />
+              <div class="invert-[400%] sepia-[100%] saturate-[1352%] hue-rotate-[100deg] brightness-[10%] contrast-[189%]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <button
+              class="btn-secondary bg-white w-full lg:w-fit lg:px-6 rounded-4xl mt-6 lg:mt-0 text-[#6663E9] py-2"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="max-width lg:flex lg:justify-around lg:mt-40 ">
+      <div class="company px-4">
+        <img src="./Assets/Icons/Logo.svg" alt="logo" class="logo pt-15" />
+        <ul class="social flex pt-6 gap-2 pb-6">
+          <li>
+            <svg
+              class="text-[#6663E9]"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z"
+              />
+            </svg>
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"
+              />
+            </svg>
+          </li>
+        </ul>
+        <span class="text-zinc-800">
+          2022 Award winning Real estate and <br />
+          Lorem ipsum dolor sit amet.
+        </span>
+      </div>
+
+      <div class="links pt-10 px-4 lg:flex lg:gap-20 lg:pt-15">
+        <div class="flex gap-40 lg:gap-20">
+          <ul class="link-list leading-8">
+            <h4 class="font-bold text-xl">Location</h4>
+            <li class="pt-4">America</li>
+            <li>Asia</li>
+            <li>Europe</li>
+            <li>Africa</li>
+          </ul>
+          <ul class="link-list leading-8">
+            <h4 class="font-bold text-xl">Contact</h4>
+            <li class="pt-4">About me</li>
+            <li>Teams</li>
+            <li>Profile</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <ul class="link-list pt-10 lg:pt-0 leading-8">
+          <h4 class="font-bold text-xl">Legals</h4>
+          <li class="pt-4">Privacy</li>
+          <li>Disclaimer</li>
+          <li>Terms</li>
+          <li>Company</li>
+        </ul>
+      </div>
+    </footer>
+    <div class="copyright text-center lg:mt-20 py-6">Made with love by @vinay</div>
+  </body>
+</html>
